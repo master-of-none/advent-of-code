@@ -5,7 +5,7 @@ let () =
     let day = Sys.argv.(1) in
     Printf.printf "Running Day %s Solution\n" day;
 
-    (* match day with
+    match day with
     | "1" -> Day1.solve "day1/input.txt"
-    | "2" -> Day2.solve "day2/input.txt"
-    | _ -> Printf.printf "Unknown Day\n" *)
+    (* | "2" -> Day2.solve "day2/input.txt" *)
+    | _ -> Printf.printf "Unknown Day\n"

@@ -5,3 +5,4 @@ type-decl = sparse
 break-cases = fit-or-vertical
 module-item-spacing = sparse
 break-infix = fit-or-vertical
+break-infix-before-func
