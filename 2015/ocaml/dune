@@ -1,0 +1,3 @@
+(executable
+ (name main))
+ ; (libraries day1 day2))
