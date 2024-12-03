@@ -39,8 +39,9 @@ let puzzle_2 input =
 
 (* Main function to read input from file and solve both puzzles *)
 let solve filename =
-  let input = Read_file.read_file filename |> String.concat ~sep:" " in
-  let res1 = puzzle_1 input in
-  Printf.printf "The Puzzle 1 Solution is: %d\n" res1;
-  let res2 = puzzle_2 input in
-  Printf.printf "The Puzzle 2 Solution is: %d\n" res2
+  filename
+  |> Read_file.read_file
+  |> String.concat ~sep:" "
+  |> fun input ->
+  puzzle_1 input |> Printf.printf "The Puzzle 1 Solution is: %d\n";
+  puzzle_2 input |> Printf.printf "The Puzzle 2 Solution is: %d\n"

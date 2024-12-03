@@ -44,7 +44,10 @@ let puzzle2 reports =
         if try_remove_element 0 then acc + 1 else acc)
 
 let solve filename =
-  filename |> Read_file.read_file |> split_lines |> fun parsed_input ->
+  filename
+  |> Read_file.read_file
+  |> split_lines
+  |> fun parsed_input ->
   let res1 = puzzle1 parsed_input in
   Printf.printf "The Puzzle 1 solution is: %d\n" res1;
 
