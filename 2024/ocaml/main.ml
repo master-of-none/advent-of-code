@@ -8,4 +8,5 @@ let () =
     match day with
     | "1" -> Day1.solve "day1/input.txt"
     | "2" -> Day2.solve "day2/input.txt"
+    | "3" -> Day3.solve "day3/input.txt"
     | _ -> Printf.printf "Unknown Day\n"
