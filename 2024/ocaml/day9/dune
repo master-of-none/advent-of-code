@@ -1,0 +1,5 @@
+(library
+ (name day9)
+ (libraries core read_file)
+ (preprocess
+  (pps ppx_deriving.eq)))
