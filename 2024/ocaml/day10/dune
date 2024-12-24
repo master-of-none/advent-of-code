@@ -1,0 +1,5 @@
+(library
+ (name day10)
+ (libraries str base stdio parsexp)
+ (preprocess
+  (pps ppx_deriving.show ppx_jane)))

@@ -15,4 +15,6 @@ let () =
     | "7" -> Day7.solve "day7/input.txt"
     | "8" -> Day8.solve "day8/input.txt"
     | "9" -> Day9.solve "day9/input.txt"
+    | "10" -> Day10.solve "day10/input.txt"
+    | "11" -> Day11.solve "day11/input.txt"
     | _ -> Printf.printf "Unknown Day\n"
