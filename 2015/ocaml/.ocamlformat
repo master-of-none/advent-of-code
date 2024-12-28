@@ -1,0 +1,8 @@
+exp-grouping = preserve
+break-separators = before
+dock-collection-brackets = false
+type-decl = sparse
+break-cases = fit-or-vertical
+module-item-spacing = sparse
+break-infix = fit-or-vertical
+break-infix-before-func=true
